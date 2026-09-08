@@ -1,0 +1,11 @@
+{
+  "actorSpecification": 1,
+  "name": "strongerfx-sound-effects",
+  "title": "StrongerFX — Sound Effects for AI, Reels & Games",
+  "description": "Search and deliver CC0 sound effects as WAV or MP3 with previews, audio bytes, duration, tags and licence provenance. For video, game and AI workflows.",
+  "version": "1.0",
+  "buildTag": "latest",
+  "dockerfile": "./Dockerfile",
+  "readme": "../README.md",
+  "input": "./input_schema.json"
+}

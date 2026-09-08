@@ -1,0 +1,5 @@
+StrongerFX Original Transitions, 2026-09-08
+24 procedural sounds: whoosh, riser, subdrop and shimmer, six variants each.
+Created with scripts/build_catalog.py; no third-party recordings.
+Dedicated to the public domain under CC0 1.0 Universal:
+https://creativecommons.org/publicdomain/zero/1.0/
