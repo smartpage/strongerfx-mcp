@@ -10,5 +10,17 @@
   "input": "./input_schema.json",
   "storages": {
     "dataset": "./dataset_schema.json"
+  },
+  "output": {
+    "actorOutputSchemaVersion": 1,
+    "title": "StrongerFX audio delivery",
+    "properties": {
+      "sounds": {
+        "type": "string",
+        "title": "Delivered sound effects",
+        "description": "Audio files as download URLs and base64 bytes, with format metadata and source licences.",
+        "template": "{{links.apiDefaultDatasetUrl}}/items"
+      }
+    }
   }
 }
