@@ -14,3 +14,5 @@ def package(name,sounds):
     print(name,(root/'dist'/name).stat().st_size)
 package('strongerfx-sampler.zip',[s for s in catalog['sounds'] if s['id'] in sampler])
 package('strongerfx-essentials-vol-01.zip',catalog['sounds'])
+
+package('strongerfx-original-transitions-vol-01.zip',[s for s in catalog['sounds'] if s['id'].startswith('original-')])

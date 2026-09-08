@@ -1,0 +1,95 @@
+{
+  "actorSpecification": 1,
+  "fields": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "description": "Stable sound identifier."
+      },
+      "name": {
+        "type": "string"
+      },
+      "category": {
+        "type": "string"
+      },
+      "duration": {
+        "type": "number",
+        "description": "Duration in seconds."
+      },
+      "downloadUrl": {
+        "type": "string",
+        "description": "Public audio file URL in the requested format."
+      },
+      "previewUrl": {
+        "type": "string",
+        "description": "MP3 preview URL."
+      },
+      "selectedFormat": {
+        "type": "string",
+        "enum": [
+          "wav",
+          "mp3"
+        ]
+      },
+      "mimeType": {
+        "type": "string"
+      },
+      "audioBase64": {
+        "type": "string",
+        "description": "Base64 audio bytes; decode directly into a file. Do not send the full value into an LLM context."
+      },
+      "source": {
+        "type": "object",
+        "description": "Creator, original file and CC0 licence provenance."
+      },
+      "formats": {
+        "type": "object",
+        "description": "WAV and MP3 file sizes, paths and SHA-256 checksums."
+      }
+    },
+    "required": [
+      "id",
+      "downloadUrl",
+      "audioBase64",
+      "source"
+    ]
+  },
+  "views": {
+    "sounds": {
+      "title": "Delivered sounds",
+      "transformation": {
+        "fields": [
+          "name",
+          "category",
+          "duration",
+          "selectedFormat",
+          "downloadUrl",
+          "previewUrl",
+          "source"
+        ]
+      },
+      "display": {
+        "component": "table",
+        "properties": {
+          "downloadUrl": {
+            "label": "Download audio",
+            "format": "link"
+          },
+          "previewUrl": {
+            "label": "MP3 preview",
+            "format": "link"
+          },
+          "duration": {
+            "label": "Seconds",
+            "format": "number"
+          },
+          "source": {
+            "label": "Source and licence",
+            "format": "object"
+          }
+        }
+      }
+    }
+  }
+}
