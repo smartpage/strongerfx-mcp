@@ -3,12 +3,37 @@
   "type": "object",
   "schemaVersion": 1,
   "properties": {
-    "query": {"title":"Search","type":"string","description":"English sound, material or action, e.g. whoosh, glitch, metal hit, click. Leave empty to browse.","editor":"textfield","default":"whoosh"},
-    "category": {"title":"Category","type":"string","description":"Filter the catalogue.","editor":"select","enum":["all","interface","impacts","footsteps","glitches","notifications","transitions"],"default":"all"},
-    "ids": {"title":"Exact sound IDs","type":"array","description":"Optional IDs returned by a previous search. Unknown IDs are rejected.","editor":"stringList","items":{"type":"string"}},
-    "maxDuration": {"title":"Maximum duration (seconds)","type":"number","description":"Only return effects no longer than this duration.","minimum":0.01,"maximum":60},
-    "limit": {"title":"Maximum sounds","type":"integer","description":"Maximum number of delivered sounds. Each delivered sound is a billable event when monetization is enabled. Zero results means zero sound events.","minimum":1,"maximum":50,"default":10},
-    "format": {"title":"Audio format","type":"string","description":"48 kHz mono WAV (16-bit PCM) or MP3 (192 kbps).","editor":"select","enum":["wav","mp3"],"default":"wav"}
+    "query": {
+      "title": "Search",
+      "type": "string",
+      "description": "Search available downloadable sound names. Empty query browses the library.",
+      "editor": "textfield",
+      "default": ""
+    },
+    "ids": {
+      "title": "Exact sound IDs",
+      "type": "array",
+      "description": "Optional IDs returned by a previous search. Unknown IDs are rejected.",
+      "editor": "stringList",
+      "items": {
+        "type": "string"
+      }
+    },
+    "maxDuration": {
+      "title": "Maximum duration (seconds)",
+      "type": "number",
+      "description": "Only return effects no longer than this duration.",
+      "minimum": 0.01,
+      "maximum": 60
+    },
+    "limit": {
+      "title": "Maximum sounds",
+      "type": "integer",
+      "description": "Maximum WAV files to deliver. Each successfully stored file emits one sound-delivered event. No matches means no delivery charge.",
+      "minimum": 1,
+      "maximum": 50,
+      "default": 10
+    }
   },
-  "required": ["limit","format"]
+  "required": []
 }

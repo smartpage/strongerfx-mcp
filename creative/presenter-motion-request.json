@@ -1,0 +1,12 @@
+{
+  "model": "veo-3.1-fast-generate-preview",
+  "prompt": "Animate the original fictional adult male creator in this reference photograph into an 8-second photorealistic vertical social media video. Preserve his face, curly dark hair, charcoal overshirt, white shirt, cafe table, laptop and coffee. A locked-off casual smartphone shot. He glances down at his laptop with a small knowing smile, subtly raises his eyebrows, then looks back at the camera and makes one understated downward pointing gesture toward the lower centre of frame before relaxing. Natural blinking and breathing. Quiet confident approachable manner, small realistic movements. No speaking, no lip-sync, no dialogue, no music, no text or logos added. Keep the hands anatomically natural and all objects stable. This is a background performance for sound-effect demonstrations; leave the centre-lower area unobstructed for titles. Ambient room tone only.",
+  "parameters": {
+    "aspectRatio": "9:16",
+    "durationSeconds": 8,
+    "resolution": "720p",
+    "personGeneration": "allow_adult",
+    "sampleCount": 1
+  },
+  "inputImage": "presenter-v1.png"
+}

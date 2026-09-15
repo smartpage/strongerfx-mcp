@@ -1,3 +1,7 @@
+# MemeFX
+
+The current MemeFX MCP and Apify Actor are documented in [MEMEFX.md](MEMEFX.md). They use the 44 actual reference cuts. The following documents the separate legacy CC0 effects library.
+
 # StrongerFX
 
 **Sound effects for your next cut — and your AI workflow.**

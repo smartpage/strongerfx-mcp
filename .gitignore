@@ -6,3 +6,32 @@ dist/
 assets/source-*/
 *.log
 .DS_Store
+
+# Local browser/build/runtime state
+.cache/
+.playwright-cli/
+.venv/
+**/.venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.db
+*.sqlite
+*.sqlite3
+*.db-wal
+*.db-shm
+*.sqlite-wal
+*.sqlite-shm
+
+# Source audio stays on Contabo; rendered video exports remain eligible
+*.wav
+*.mp3
+*.m4a
+*.aac
+*.ogg
+*.flac
+*.aiff
+*.opus
+*.wav.*
+*.mp3.*

@@ -1,0 +1,97 @@
+{
+  "method": "Gemini 2.5 Flash audio-input analysis; not human listening or source provenance verification",
+  "reviewedAt": "2026-09-09",
+  "rawResponse": "../source-media/reference-cuts-revision2.analysis.json",
+  "clips": [
+    {
+      "file": "01-faah.wav",
+      "audibleDescription": "A male voice shouts \"Faah!\" with a slight echo or reverb.",
+      "speechTranscript": "Faah!",
+      "containsAdjacentDifferentEffect": false,
+      "startOrEndCutOff": false,
+      "soundType": "Vocalization, shout",
+      "pcmSha256": "ef9886943d641a74b69f1593fe8c0de63cf6ad36603c061332850955d49fed8a"
+    },
+    {
+      "file": "02-core.wav",
+      "audibleDescription": "A deep, resonant, percussive thud or impact sound, possibly with a metallic or electronic quality, followed by a brief, low-frequency hum or decay.",
+      "speechTranscript": "",
+      "containsAdjacentDifferentEffect": false,
+      "startOrEndCutOff": false,
+      "soundType": "Impact, percussive, electronic",
+      "pcmSha256": "a5b96435d4ef7fe9cc2e3825015feab819f175feaf1ac7f602f5da8f0a0e0b56"
+    },
+    {
+      "file": "03-click.wav",
+      "audibleDescription": "A short, sharp, distinct click sound, similar to a mouse click or a switch.",
+      "speechTranscript": "",
+      "containsAdjacentDifferentEffect": false,
+      "startOrEndCutOff": false,
+      "soundType": "Click, mechanical",
+      "pcmSha256": "9926b54baa0248d6f45dcd719f1967a0560d10f553064f456d4cfdf2b5754d64"
+    },
+    {
+      "file": "04-taco-bell-bong.wav",
+      "audibleDescription": "A distinctive, two-note chime sound. The first note is higher, followed by a lower, sustained note.",
+      "speechTranscript": "",
+      "containsAdjacentDifferentEffect": false,
+      "startOrEndCutOff": false,
+      "soundType": "Chime, jingle, notification",
+      "pcmSha256": "84fba47ad6c78312704d7225d6c38248fda711eecb68c6565c3c235fff353de3"
+    },
+    {
+      "file": "05-discord-notification.wav",
+      "audibleDescription": "A short, high-pitched, electronic \"pop\" or \"blip\" sound, characteristic of a digital notification.",
+      "speechTranscript": "",
+      "containsAdjacentDifferentEffect": false,
+      "startOrEndCutOff": false,
+      "soundType": "Notification, electronic, blip",
+      "pcmSha256": "a9c5cc4c2d11bc03a87f2b3804736775fb493345e6c7bec102e8fce6906080d0"
+    },
+    {
+      "file": "06-ding.wav",
+      "audibleDescription": "A clear, single \"ding\" sound, like a small bell or a chime.",
+      "speechTranscript": "",
+      "containsAdjacentDifferentEffect": false,
+      "startOrEndCutOff": false,
+      "soundType": "Chime, bell, notification",
+      "pcmSha256": "f12707701c6029ea9b35450779f5c237e049d68bb8ab11f9f6eb325dbfa20814"
+    },
+    {
+      "file": "07-woosh.wav",
+      "audibleDescription": "A rapid, whooshing sound, suggesting fast movement through air.",
+      "speechTranscript": "",
+      "containsAdjacentDifferentEffect": false,
+      "startOrEndCutOff": false,
+      "soundType": "Whoosh, movement, air",
+      "pcmSha256": "3113b738ad00fbb0183ba62815d3012d1a87da03ed82e0fd116fe91f302f553e"
+    },
+    {
+      "file": "08-cha-ching-money.wav",
+      "audibleDescription": "A distinct \"cha-ching\" sound, mimicking the sound of a cash register opening, often associated with money or a successful transaction.",
+      "speechTranscript": "",
+      "containsAdjacentDifferentEffect": false,
+      "startOrEndCutOff": false,
+      "soundType": "Cash register, money, sound effect",
+      "pcmSha256": "b8d7b4d1af6f7fe6981a4679880497ab74b36ecb9cb38a9d1e2c5a982ae79ef0"
+    },
+    {
+      "file": "09-magic-reveal.wav",
+      "audibleDescription": "A short, sparkling, magical sound effect, often used for reveals or magical events, with a brief sustain.",
+      "speechTranscript": "",
+      "containsAdjacentDifferentEffect": false,
+      "startOrEndCutOff": false,
+      "soundType": "Magical, sparkle, reveal",
+      "pcmSha256": "2275167db9dbf07fe39d9912fa98f52e482977415ba2227d41b541e16b8dfee2"
+    },
+    {
+      "file": "10-dexter-meme.wav",
+      "audibleDescription": "A short musical sting with a dramatic, slightly melancholic or suspenseful tone, featuring strings and possibly a synth. It has a distinct, recognizable melody.",
+      "speechTranscript": "",
+      "containsAdjacentDifferentEffect": false,
+      "startOrEndCutOff": false,
+      "soundType": "Musical cue, jingle, dramatic",
+      "pcmSha256": "9d81c02222a740f3ab69d7372c10c9723a046c4f97300baeb0c7f5b8ef65d563"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "[\n  {\n    \"start_seconds\": 0.00,\n    \"end_seconds\": 0.90,\n    \"speech_transcription\": \"\",\n    \"acoustic_description\": \"Multiple human voices screaming or shouting, creating a chaotic soundscape, possibly a crowd.\",\n    \"sound_type\": \"speech\",\n    \"identification_confidence\": \"high\",\n    \"source_identity\": \"unknown\"\n  },\n  {\n    \"start_seconds\": 0.90,\n    \"end_seconds\": 1.00,\n    \"speech_transcription\": \"\",\n    \"acoustic_description\": \"A distinct whoosh sound, resembling rapid air movement.\",\n    \"sound_type\": \"effect\",\n    \"identification_confidence\": \"high\",\n    \"source_identity\": \"unknown\"\n  },\n  {\n    \"start_seconds\": 1.00,\n    \"end_seconds\": 1.10,\n    \"speech_transcription\": \"\",\n    \"acoustic_description\": \"A short, clear bell ringing sound, similar to a small chime.\",\n    \"sound_type\": \"effect\",\n    \"identification_confidence\": \"high\",\n    \"source_identity\": \"unknown\"\n  },\n  {\n    \"start_seconds\": 2.00,\n    \"end_seconds\": 4.70,\n    \"speech_transcription\": \"\",\n    \"acoustic_description\": \"A deep, resonant bell tolling sound, repeated several times.\",\n    \"sound_type\": \"effect\",\n    \"identification_confidence\": \"high\",\n    \"source_identity\": \"unknown\"\n  },\n  {\n    \"start_seconds\": 4.70,\n    \"end_seconds\": 5.00,\n    \"speech_transcription\": \"\",\n    \"acoustic_description\": \"A distinct 'ding' sound, like a small bell or chime.\",\n    \"sound_type\": \"effect\",\n    \"identification_confidence\": \"high\",\n    \"source_identity\": \"unknown\"\n  },\n  {\n    \"start_seconds\": 5.50,\n    \"end_seconds\": 7.00,\n    \"speech_transcription\": \"\",\n    \"acoustic_description\": \"A cash register sound, commonly known as 'cha-ching'.\",\n    \"sound_type\": \"effect\",\n    \"identification_confidence\": \"high\",\n    \"source_identity\": \"unknown\"\n  },\n  {\n    \"start_seconds\": 7.50,\n    \"end_seconds\": 7.80,\n    \"speech_transcription\": \"\",\n    \"acoustic_description\": \"A distinct 'ding' sound, like a small bell or chime.\",\n    \"sound_type\": \"effect\",\n    \"identification_confidence\": \"high\",\n    \"source_identity\": \"unknown\"\n  },\n  {\n    \"start_seconds\": 8.00,\n    \"end_seconds\": 13.00,\n    \"speech_transcription\": \"\",\n    \"acoustic_description\": \"Instrumental music featuring a string instrument, likely a violin or cello, playing a slow, melancholic, and somewhat dramatic melody. This music continues until the end of the audio.\",\n    \"sound_type\": \"music\",\n    \"identification_confidence\": \"high\",\n    \"source_identity\": \"unknown\"\n  }\n]"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 502,
+    "candidatesTokenCount": 769,
+    "totalTokenCount": 3142,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 70
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 432
+      }
+    ],
+    "thoughtsTokenCount": 1871,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "F_ygavOfPK3jvdIPnpaNoA8"
+}

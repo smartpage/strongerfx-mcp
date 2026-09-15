@@ -1,3 +1,4 @@
+if(new URLSearchParams(location.search).has('embed'))document.documentElement.classList.add('embedded');
 const $=s=>document.querySelector(s);
 $('#cover').src='https://storage.googleapis.com/intuitiva-client-dashboard-fb.firebasestorage.app/organizations/org_intuitiva/sites/site_strongerfx/images/strongerfx-cover-1788884094612.webp';
 const audio=new Audio();audio.preload='none';audio.volume=.65;
@@ -14,12 +15,14 @@ function render(){
   $('#sounds').replaceChildren();
   for(const s of filtered.slice(0,visible)){
     const row=document.createElement('article');row.className='sound';
+    const art=document.createElement('div');art.className='artwork';
+    if(s.artwork?.url){const img=document.createElement('img');img.src=s.artwork.url;img.alt=s.artwork.alt||s.name;img.loading='lazy';art.append(img)}else{const placeholder=document.createElement('span');placeholder.className='art-placeholder';placeholder.textContent=s.category;art.append(placeholder);art.dataset.placeholder='true'}
     const button=document.createElement('button');button.className='play';button.id='play-'+s.id;button.type='button';button.textContent=current===s.id?'■':'▶';button.setAttribute('aria-pressed',String(current===s.id));button.setAttribute('aria-label','Preview '+s.name);button.onclick=()=>play(s);
     const title=document.createElement('div'),h=document.createElement('h3'),p=document.createElement('p');h.textContent=s.name;p.textContent=s.category+' / '+s.source.creator;title.append(h,p);
     const waveform=document.createElement('div');waveform.className='wave';waveform.setAttribute('aria-hidden','true');s.waveform.forEach(v=>{const bar=document.createElement('i');bar.style.height=Math.max(2,v*32)+'px';waveform.append(bar)});
     const duration=document.createElement('span');duration.className='seconds';duration.textContent=s.duration.toFixed(2)+'s';
     const downloads=document.createElement('div');downloads.className='downloads';for(const fmt of ['wav','mp3']){const link=document.createElement('a');link.href='/'+s.formats[fmt].path;link.download=s.id+'.'+fmt;link.textContent=fmt.toUpperCase()+' ↓';link.setAttribute('aria-label','Download '+s.name+' as '+fmt.toUpperCase());downloads.append(link)}
-    row.append(button,title,waveform,duration,downloads);$('#sounds').append(row);
+    art.append(button,duration);row.append(art,title,waveform,downloads);$('#sounds').append(row);
   }
   if(!filtered.length){const empty=document.createElement('p');empty.className='empty';empty.textContent='No matches. Try a shorter search or another category.';$('#sounds').append(empty)}
   $('#more').hidden=filtered.length<=visible;

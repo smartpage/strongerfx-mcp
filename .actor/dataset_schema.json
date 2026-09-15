@@ -4,89 +4,61 @@
     "type": "object",
     "properties": {
       "id": {
-        "type": "string",
-        "description": "Stable sound identifier."
+        "type": "string"
       },
       "name": {
         "type": "string"
       },
-      "category": {
-        "type": "string"
-      },
       "duration": {
-        "type": "number",
-        "description": "Duration in seconds."
-      },
-      "downloadUrl": {
-        "type": "string",
-        "description": "Public audio file URL in the requested format."
-      },
-      "previewUrl": {
-        "type": "string",
-        "description": "MP3 preview URL."
-      },
-      "selectedFormat": {
-        "type": "string",
-        "enum": [
-          "wav",
-          "mp3"
-        ]
+        "type": "number"
       },
       "mimeType": {
         "type": "string"
       },
-      "audioBase64": {
-        "type": "string",
-        "description": "Base64 audio bytes; decode directly into a file. Do not send the full value into an LLM context."
+      "bytes": {
+        "type": "number"
       },
-      "source": {
-        "type": "object",
-        "description": "Creator, original file and CC0 licence provenance."
+      "sha256": {
+        "type": "string"
       },
-      "formats": {
-        "type": "object",
-        "description": "WAV and MP3 file sizes, paths and SHA-256 checksums."
+      "downloadUrl": {
+        "type": "string"
       }
     },
     "required": [
       "id",
-      "downloadUrl",
-      "audioBase64",
-      "source"
+      "name",
+      "duration",
+      "mimeType",
+      "bytes",
+      "sha256",
+      "downloadUrl"
     ]
   },
   "views": {
     "sounds": {
-      "title": "Delivered sounds",
+      "title": "WAV downloads",
       "transformation": {
         "fields": [
+          "id",
           "name",
-          "category",
           "duration",
-          "selectedFormat",
-          "downloadUrl",
-          "previewUrl",
-          "source"
+          "mimeType",
+          "bytes",
+          "sha256",
+          "downloadUrl"
         ]
       },
       "display": {
         "component": "table",
         "properties": {
           "downloadUrl": {
-            "label": "Download audio",
-            "format": "link"
-          },
-          "previewUrl": {
-            "label": "MP3 preview",
+            "label": "Download WAV",
             "format": "link"
           },
           "duration": {
             "label": "Seconds",
             "format": "number"
-          },
-          "source": {
-            "label": "Source and licence",
-            "format": "object"
           }
         }
       }

@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "[\n  {\n    \"clipNumber\": 1,\n    \"audibleDescription\": \"A distinct whooshing sound, like a large object moving quickly through air or a powerful fan. It starts and ends clearly.\",\n    \"suggestedDescriptiveName\": \"Whoosh\",\n    \"speechTranscript\": \"\",\n    \"containsAdjacentDifferentEffect\": false,\n    \"startOrEndCutOff\": false\n  },\n  {\n    \"clipNumber\": 2,\n    \"audibleDescription\": \"A sharp, metallic clang or impact sound.\",\n    \"suggestedDescriptiveName\": \"Metal Clang\",\n    \"speechTranscript\": \"\",\n    \"containsAdjacentDifferentEffect\": false,\n    \"startOrEndCutOff\": false\n  },\n  {\n    \"clipNumber\": 3,\n    \"audibleDescription\": \"A short, sharp popping or clicking sound.\",\n    \"suggestedDescriptiveName\": \"Pop/Click\",\n    \"speechTranscript\": \"\",\n    \"containsAdjacentDifferentEffect\": false,\n    \"startOrEndCutOff\": false\n  },\n  {\n    \"clipNumber\": 4,\n    \"audibleDescription\": \"A distinct thud or impact sound, like a heavy object hitting a surface.\",\n    \"suggestedDescriptiveName\": \"Thud/Impact\",\n    \"speechTranscript\": \"\",\n    \"containsAdjacentDifferentEffect\": false,\n    \"startOrEndCutOff\": false\n  },\n  {\n    \"clipNumber\": 5,\n    \"audibleDescription\": \"The clear sound of a bell ringing, similar to a service bell or bicycle bell.\",\n    \"suggestedDescriptiveName\": \"Bell Ring\",\n    \"speechTranscript\": \"\",\n    \"containsAdjacentDifferentEffect\": false,\n    \"startOrEndCutOff\": false\n  },\n  {\n    \"clipNumber\": 6,\n    \"audibleDescription\": \"The distinct sound of a cash register drawer opening, accompanied by a \\\"cha-ching\\\" sound.\",\n    \"suggestedDescriptiveName\": \"Cash Register\",\n    \"speechTranscript\": \"\",\n    \"containsAdjacentDifferentEffect\": false,\n    \"startOrEndCutOff\": false\n  },\n  {\n    \"clipNumber\": 7,\n    \"audibleDescription\": \"A short, distinct \\\"boing\\\" sound, reminiscent of a spring or a cartoon sound effect.\",\n    \"suggestedDescriptiveName\": \"Boing\",\n    \"speechTranscript\": \"\",\n    \"containsAdjacentDifferentEffect\": false,\n    \"startOrEndCutOff\": false\n  },\n  {\n    \"clipNumber\": 8,\n    \"audibleDescription\": \"A distinct \\\"splat\\\" or \\\"squish\\\" sound, like a wet object hitting a surface or being compressed.\",\n    \"suggestedDescriptiveName\": \"Splat/Squish\",\n    \"speechTranscript\": \"\",\n    \"containsAdjacentDifferentEffect\": false,\n    \"startOrEndCutOff\": false\n  }\n]"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 380,
+    "candidatesTokenCount": 655,
+    "totalTokenCount": 2006,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 91
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 289
+      }
+    ],
+    "thoughtsTokenCount": 971,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "Gf6gaq--GMSRvdIPx_WF0QQ"
+}

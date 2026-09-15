@@ -1,0 +1,15 @@
+{
+  "productId": "prod_VE864LexZyP53X",
+  "priceId": "price_1UDfqRK3CXqlfULuL6AtKZlN",
+  "mode": "live",
+  "amount": 300,
+  "currency": "usd",
+  "interval": "month",
+  "permissions": {
+    "subscriptions": "StripePermissionError",
+    "customers": "StripePermissionError",
+    "checkout": "available",
+    "webhooks": "StripePermissionError",
+    "portal": "available"
+  }
+}

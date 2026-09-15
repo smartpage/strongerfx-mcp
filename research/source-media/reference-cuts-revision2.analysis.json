@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "[\n  {\n    \"file\": \"01-faah.wav\",\n    \"audibleDescription\": \"A male voice shouts \\\"Faah!\\\" with a slight echo or reverb.\",\n    \"speechTranscript\": \"Faah!\",\n    \"containsAdjacentDifferentEffect\": false,\n    \"startOrEndCutOff\": false,\n    \"soundType\": \"Vocalization, shout\"\n  },\n  {\n    \"file\": \"02-core.wav\",\n    \"audibleDescription\": \"A deep, resonant, percussive thud or impact sound, possibly with a metallic or electronic quality, followed by a brief, low-frequency hum or decay.\",\n    \"speechTranscript\": \"\",\n    \"containsAdjacentDifferentEffect\": false,\n    \"startOrEndCutOff\": false,\n    \"soundType\": \"Impact, percussive, electronic\"\n  },\n  {\n    \"file\": \"03-click.wav\",\n    \"audibleDescription\": \"A short, sharp, distinct click sound, similar to a mouse click or a switch.\",\n    \"speechTranscript\": \"\",\n    \"containsAdjacentDifferentEffect\": false,\n    \"startOrEndCutOff\": false,\n    \"soundType\": \"Click, mechanical\"\n  },\n  {\n    \"file\": \"04-taco-bell-bong.wav\",\n    \"audibleDescription\": \"A distinctive, two-note chime sound. The first note is higher, followed by a lower, sustained note.\",\n    \"speechTranscript\": \"\",\n    \"containsAdjacentDifferentEffect\": false,\n    \"startOrEndCutOff\": false,\n    \"soundType\": \"Chime, jingle, notification\"\n  },\n  {\n    \"file\": \"05-discord-notification.wav\",\n    \"audibleDescription\": \"A short, high-pitched, electronic \\\"pop\\\" or \\\"blip\\\" sound, characteristic of a digital notification.\",\n    \"speechTranscript\": \"\",\n    \"containsAdjacentDifferentEffect\": false,\n    \"startOrEndCutOff\": false,\n    \"soundType\": \"Notification, electronic, blip\"\n  },\n  {\n    \"file\": \"06-ding.wav\",\n    \"audibleDescription\": \"A clear, single \\\"ding\\\" sound, like a small bell or a chime.\",\n    \"speechTranscript\": \"\",\n    \"containsAdjacentDifferentEffect\": false,\n    \"startOrEndCutOff\": false,\n    \"soundType\": \"Chime, bell, notification\"\n  },\n  {\n    \"file\": \"07-woosh.wav\",\n    \"audibleDescription\": \"A rapid, whooshing sound, suggesting fast movement through air.\",\n    \"speechTranscript\": \"\",\n    \"containsAdjacentDifferentEffect\": false,\n    \"startOrEndCutOff\": false,\n    \"soundType\": \"Whoosh, movement, air\"\n  },\n  {\n    \"file\": \"08-cha-ching-money.wav\",\n    \"audibleDescription\": \"A distinct \\\"cha-ching\\\" sound, mimicking the sound of a cash register opening, often associated with money or a successful transaction.\",\n    \"speechTranscript\": \"\",\n    \"containsAdjacentDifferentEffect\": false,\n    \"startOrEndCutOff\": false,\n    \"soundType\": \"Cash register, money, sound effect\"\n  },\n  {\n    \"file\": \"09-magic-reveal.wav\",\n    \"audibleDescription\": \"A short, sparkling, magical sound effect, often used for reveals or magical events, with a brief sustain.\",\n    \"speechTranscript\": \"\",\n    \"containsAdjacentDifferentEffect\": false,\n    \"startOrEndCutOff\": false,\n    \"soundType\": \"Magical, sparkle, reveal\"\n  },\n  {\n    \"file\": \"10-dexter-meme.wav\",\n    \"audibleDescription\": \"A short musical sting with a dramatic, slightly melancholic or suspenseful tone, featuring strings and possibly a synth. It has a distinct, recognizable melody.\",\n    \"speechTranscript\": \"\",\n    \"containsAdjacentDifferentEffect\": false,\n    \"startOrEndCutOff\": false,\n    \"soundType\": \"Musical cue, jingle, dramatic\"\n  }\n]"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 585,
+    "candidatesTokenCount": 939,
+    "totalTokenCount": 2602,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 147
+      },
+      {
+        "modality": "AUDIO",
+        "tokenCount": 438
+      }
+    ],
+    "thoughtsTokenCount": 1078,
+    "serviceTier": "standard"
+  },
+  "modelVersion": "gemini-2.5-flash",
+  "responseId": "mvygasPuAY2UvdIP3uaIwQ8"
+}

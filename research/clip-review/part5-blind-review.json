@@ -1,0 +1,99 @@
+{
+  "method": "Gemini 2.5 Flash blind numbered audio attachments; not human verification",
+  "disputedClips": [
+    2,
+    3,
+    4,
+    8
+  ],
+  "clips": [
+    {
+      "clipNumber": 1,
+      "audibleDescription": "A distinct whooshing sound, like a large object moving quickly through air or a powerful fan. It starts and ends clearly.",
+      "suggestedDescriptiveName": "Whoosh",
+      "speechTranscript": "",
+      "containsAdjacentDifferentEffect": false,
+      "startOrEndCutOff": false,
+      "file": "part5-01-whoosh.wav",
+      "pcmSha256": "88336486718275bdb560780191a60d8a7f36c822fe17e2f482efe2003d1b304d",
+      "identityStatus": "machine-suggested acoustic description; unverified identity"
+    },
+    {
+      "clipNumber": 2,
+      "audibleDescription": "A sharp, metallic clang or impact sound.",
+      "suggestedDescriptiveName": "Metal Clang",
+      "speechTranscript": "",
+      "containsAdjacentDifferentEffect": false,
+      "startOrEndCutOff": false,
+      "file": "part5-02-pop.wav",
+      "pcmSha256": "c2d5d70d317ea0c481f6dc30e22acc91b2fe782bcc48dd94fe61438896d650e3",
+      "identityStatus": "conflicting machine descriptions; human identification required"
+    },
+    {
+      "clipNumber": 3,
+      "audibleDescription": "A short, sharp popping or clicking sound.",
+      "suggestedDescriptiveName": "Pop/Click",
+      "speechTranscript": "",
+      "containsAdjacentDifferentEffect": false,
+      "startOrEndCutOff": false,
+      "file": "part5-03-camera-shutter.wav",
+      "pcmSha256": "8217830f64cf495a184197979ca42c2adc1dedfb737b552b3ab1428f8e8fbef1",
+      "identityStatus": "conflicting machine descriptions; human identification required"
+    },
+    {
+      "clipNumber": 4,
+      "audibleDescription": "A distinct thud or impact sound, like a heavy object hitting a surface.",
+      "suggestedDescriptiveName": "Thud/Impact",
+      "speechTranscript": "",
+      "containsAdjacentDifferentEffect": false,
+      "startOrEndCutOff": false,
+      "file": "part5-04-glass-break.wav",
+      "pcmSha256": "063aa7bef235eb5dbbae6369f6da26d8a971f00d59d9ba0765ea79167b2ae27c",
+      "identityStatus": "conflicting machine descriptions; human identification required"
+    },
+    {
+      "clipNumber": 5,
+      "audibleDescription": "The clear sound of a bell ringing, similar to a service bell or bicycle bell.",
+      "suggestedDescriptiveName": "Bell Ring",
+      "speechTranscript": "",
+      "containsAdjacentDifferentEffect": false,
+      "startOrEndCutOff": false,
+      "file": "part5-05-chime.wav",
+      "pcmSha256": "3af25baf934d13e0e6773efeb75236f413ecdf1b14a15cbbe6b733729ac4ce2d",
+      "identityStatus": "machine-suggested acoustic description; unverified identity"
+    },
+    {
+      "clipNumber": 6,
+      "audibleDescription": "The distinct sound of a cash register drawer opening, accompanied by a \"cha-ching\" sound.",
+      "suggestedDescriptiveName": "Cash Register",
+      "speechTranscript": "",
+      "containsAdjacentDifferentEffect": false,
+      "startOrEndCutOff": false,
+      "file": "part5-06-cash-register.wav",
+      "pcmSha256": "855d60d2d7f90e5af362ff1076459b6ae4d3294453d1a92e345630f3fc24f847",
+      "identityStatus": "machine-suggested acoustic description; unverified identity"
+    },
+    {
+      "clipNumber": 7,
+      "audibleDescription": "A short, distinct \"boing\" sound, reminiscent of a spring or a cartoon sound effect.",
+      "suggestedDescriptiveName": "Boing",
+      "speechTranscript": "",
+      "containsAdjacentDifferentEffect": false,
+      "startOrEndCutOff": false,
+      "file": "part5-07-boing.wav",
+      "pcmSha256": "85aa7bb788c6160980f18b83bbd3fd6e11c46b1189cdf64cba39154432066cae",
+      "identityStatus": "machine-suggested acoustic description; unverified identity"
+    },
+    {
+      "clipNumber": 8,
+      "audibleDescription": "A distinct \"splat\" or \"squish\" sound, like a wet object hitting a surface or being compressed.",
+      "suggestedDescriptiveName": "Splat/Squish",
+      "speechTranscript": "",
+      "containsAdjacentDifferentEffect": false,
+      "startOrEndCutOff": false,
+      "file": "part5-08-explosion.wav",
+      "pcmSha256": "b0925230dfaa9c8993eac69e02acdebf1749447c7b185d6933e25fc260ec332e",
+      "identityStatus": "conflicting machine descriptions; human identification required"
+    }
+  ]
+}

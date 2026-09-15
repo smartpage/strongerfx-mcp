@@ -1,11 +1,31 @@
 {
-  "name": "strongerfx-mcp",
-  "version": "1.0.0",
-  "description": "Search, preview and deliver sound effects to creators and MCP-compatible AI clients.",
+  "name": "memefx-mcp",
+  "version": "2.0.0",
+  "description": "MemeFX sound discovery for AI editors: source Reels, cut timings and waveforms.",
   "type": "module",
   "license": "MIT",
-  "engines": { "node": ">=22" },
-  "bin": { "strongerfx-mcp": "src/mcp.js" },
-  "scripts": { "start": "node src/actor.js", "mcp": "node src/mcp.js", "test": "node --test", "catalog:build": "python3 scripts/build_catalog.py" },
-  "dependencies": { "@modelcontextprotocol/sdk": "^1.0.0", "apify": "^3.4.0", "zod": "^3.24.0" }
+  "engines": {
+    "node": ">=22"
+  },
+  "bin": {
+    "strongerfx-mcp": "src/mcp.js",
+    "memefx-mcp": "src/memefx-mcp.js",
+    "memefx-member-mcp": "src/member-mcp.js"
+  },
+  "scripts": {
+    "start": "node src/member-actor.js",
+    "mcp": "node src/memefx-mcp.js",
+    "test": "node --test",
+    "catalog:build": "python3 scripts/build_catalog.py",
+    "legacy:actor": "node src/actor.js",
+    "legacy:mcp": "node src/mcp.js",
+    "catalog:sync": "python3 scripts/sync_meme_catalog.py",
+    "mcp:member": "node src/member-mcp.js",
+    "actor:references": "node src/memefx-actor.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "apify": "^3.4.0",
+    "zod": "^3.24.0"
+  }
 }

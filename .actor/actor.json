@@ -1,24 +1,24 @@
 {
   "actorSpecification": 1,
-  "name": "strongerfx-sound-effects",
-  "title": "StrongerFX \u2014 Sound Effects for AI, Reels & Games",
-  "description": "Search and deliver CC0 sound effects as WAV or MP3 with previews, audio bytes, duration, tags and licence provenance. For video, game and AI workflows.",
-  "version": "1.0",
+  "name": "memefx-sound-finder",
+  "title": "MemeFX \u2014 Meme Sound Finder for AI Editors",
+  "description": "Find and download available curated sound effects as WAV files for AI editing workflows. Each result includes a download URL, duration and SHA-256 checksum.",
+  "version": "2.0",
   "buildTag": "latest",
   "dockerfile": "./Dockerfile",
-  "readme": "../README.md",
+  "readme": "../APIFY-DELIVERY.md",
   "input": "./input_schema.json",
   "storages": {
     "dataset": "./dataset_schema.json"
   },
   "output": {
     "actorOutputSchemaVersion": 1,
-    "title": "StrongerFX audio delivery",
+    "title": "MemeFX WAV downloads",
     "properties": {
       "sounds": {
         "type": "string",
-        "title": "Delivered sound effects",
-        "description": "Audio files as download URLs and base64 bytes, with format metadata and source licences.",
+        "title": "Delivered sounds",
+        "description": "WAV download URLs with names, durations and checksums.",
         "template": "{{links.apiDefaultDatasetUrl}}/items"
       }
     }
